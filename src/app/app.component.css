@@ -1,4 +1,3 @@
-
 .container {
   font-family: "Roboto", sans-serif;
   text-rendering: optimizeLegibility;
@@ -10,10 +9,26 @@
 }
 
 .frame {
-  width: 400px;
-  height: 400px;
+  width: 470px;
+  height: 470px;
   border-radius: 20px;
   position: relative;
+}
+
+@media (max-width: 500px) {
+  .frame {
+    width: 370px;
+    height: 370px;
+  }
+
+}
+
+@media (max-width: 430px) {
+  .frame {
+    width: 320px;
+    height: 320px;
+  }
+
 }
 
 .output {
@@ -41,7 +56,6 @@
 
 #output-line-main {
   font-weight: bold;
-
   font-size: 30px;
 }
 
